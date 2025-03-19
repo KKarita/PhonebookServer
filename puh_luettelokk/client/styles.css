@@ -1,0 +1,36 @@
+/*Oma tiedostonsa selaimen ulkoasulle: Tumma-teema*/
+
+body {
+  background: #121212;
+  color: white;
+}
+
+.container {
+  margin: 4mm auto;
+  max-width: 900px;
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.form-control {
+  background: #e0e0e0;
+  color: black;
+  border: none;
+}
+
+.form-control::placeholder {
+  color: #868585;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 48%;
+  text-align: center;
+}
